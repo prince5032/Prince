@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/716e9fffd1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="imges/portfolio logo.png" class="logo">
+                <ul id="slidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#achievement">Achievement</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h4>Hi!&#128075; I'm <span>Prince</span> from New Delhi India, <br> I'm always looking
+                    for new ways to learn and improve my skills.</h4>
+
+            </div>
+        </div>
+    </div>
+    <!-- ------------------about------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imges/1666598761466-removebg-preview (2).png " alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Prince. Basically, I'm from New Delhi. I am currently pursuing a BTech in Electronics and Communication Engineering at USICT main campus  GGSIPU. I'm really passionate about programming , development, and artificial intelligence. As a tech-enthusiastic person, new technologies and skills fascinate me a lot . I have acquired relevant skills in web development, such as JavaScript, ReactJS, Css, Html, etc. I have also done an internship as a web developer. Talking about my hobbies and interests, I love to read books and play PC games. and I'm always looking for new ways to learn things and interact with more people.  </p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> Web development</span><br>Build website using html, css, javascript and React.
+                            </li>
+                            <li><span>Programming</span><br> C, c++ and data structures and algorithms.</li>
+                            <li><span>Oops</span><br> Understanding of object oriented programming in c++.</li>
+                            <li><span>MySql and mongodb</span><br>Basic understanding of DBMS.</li>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sept 2022 - current</span><br> Web Developer at SDC USICT</li>
+                            <li><span>July 2022 - Sept 2022</span><br> Jr. Web Developer intern at CareerGuide.com</li>
+                            <li><span>Aug 2021 - Sept 2021</span><br>Front-end web Developer at ACM Utkrisht Summer
+                                Internship.</li>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 24</span><br> B.Tech in Electronics & Communication Engineering at USICT,
+                                New Delhi</li>
+                            <li><span>2019</span><br>Class 12th from, GBSSS No-1, New Delhi</li>
+                            <li><span>2017</span><br>Class 10th from SBV, New Delhi</li>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------volunteering & achievement ------------------------- -->
+
+        <div id="achievement">
+            <div class="container">
+                <h1 class="sub-title">Volunteering & Achievement</h1>
+                <div class="achievement-list">
+                    <div>
+                        <h3><i class="fa-solid fa-hand-point-right"></i> Placement Coordinator at TnP Cell USICT.</h3>
+
+                        <h3><i class="fa-solid fa-hand-point-right"></i> Tressurer at IEEE ggsipu.</h3>
+                        <h3><i class="fa-solid fa-hand-point-right"></i> Developer at SDC USICT.</h3>
+                        
+
+                        
+                        <a href="#">more details</a>
+                    </div>
+                    <div>
+                        <h3><i class="fa-solid fa-trophy"></i> Won Code Ralay Competition at Hashtech organised by ACM ggsipu.</h3>
+                        <h3><i class="fa-solid fa-trophy"></i> 2nd Position at State level Science Exhibition.</h3>
+                       
+                        <a href="#">more details</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- ------------------projects--------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="imges/work-1-1.jpg">
+                        <div class="layer">
+                            <h3>Weather forcast web App</h3>
+                            <p>A weather web app made with help of HTML, CSS and javascript. for fetching the weather details the openweather api is used. It showing the 7 days weather forcast details of the current device location it display the details like temperatue, humidity, air quality index etc. with beautiful background image.</p>
+                            <a href="https://prince5032.github.io/weatherapp/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="imges/work-2-2.png">
+                        <div class="layer">
+                            <h3>Personal portfolio website</h3>
+                            <p>This portfolio website is built with the help of html, css and javascript with the some amazing effects and this will decribes about me. </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="imges/work-3.png">
+                        <div class="layer">
+                            <h3>hotel booking website</h3>
+                            <p>work on progress , project Comming soon!!</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="#" class="butn">See more</a>
+            </div>
+        </div>
+        <!-- -------------------------------contacts--------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> prince2305pal@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 8595270258</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/prince5032"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/prince_23_05/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/prince-819286213/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <a href="imges/prince logo.png" download class="butn butn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                            <button type="submit" class="butn butn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ----------------footer--------------- -->
+            <div class="copyright">
+                <p>Copyright @ Prince | 2022 | ALL RIGHTS RESERVED </p>
+            </div>
+        </div>
+       
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+
+        </script>
+        <script>
+            var sidemenu = document.getElementById("slidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+    </div>
+</body>
+
+</html>
